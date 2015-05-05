@@ -41,20 +41,27 @@ class PackTPS:
     def getJPG(filepath):
     	return filepath + ".jpg"    	
 
-    # 拷贝到资源目录
-    def copyToEidtorAssetFolder(self, sourceDir, targetDir):
-        pass
-    # 打包预设
-
-    def packPrefab(self):
-        pass
-    # 拷贝到Code资源目录、覆盖并且替换
-
-    def copyToCodeAssetFolder(self):
-        pass
-
 pr = PackTPS()
-pr.publishTps("VIP", "UI_Vip", "UI_Vip")  # VIP界面
-pr.publishTps("common", "common_global", "common_global")  # 公共资源图集
-pr.publishTps("yingxiong", "UI_Hero", "UI_Hero")  # 英雄（列表、详情等）界面
-pr.publishTps("yingxiong", "UI_Talent", "UI_Talent")  # 英雄天赋界面
+# VIP界面
+pr.publishTps("VIP", "UI_Vip", "UI_Vip")
+# 公共资源图集
+pr.publishTps("common", "common_global", "common_global") 
+# 英雄（列表、详情等）界面
+pr.publishTps("yingxiong", "UI_Hero", "UI_Hero")  
+# 英雄天赋界面
+pr.publishTps("yingxiong", "UI_Talent", "UI_Talent")  
+# 布阵界面
+pr.publishTps("liezhen","UI_Liezhen","UI_Liezhen")
+# 飞艇
+pr.publishTps("feiting","UI_Airship","UI_Airship")
+# 战斗界面
+pr.publishTps("zhandou\\zhandou","UI_Battle","UI_Battle")
+#君主
+pr.publishTps("junzhu","UI_UpgradeLevel","UI_UpgradeLevel")
+
+#ICON 相关
+assetpath = r"D:\Tianze\dev\client\ClientEditor\Assets\Prefab\Icon"
+#技能1
+pr.publishTps("icon\\skill","Icon_Skill_101","Icon_Skill")
+#技能2
+pr.publishTps("icon\\skill","Icon_Skill_111","Icon_Skill")
