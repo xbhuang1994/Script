@@ -4,7 +4,8 @@ import os.path
 import shutil  
 
 sourceBundlePath = r"D:\Tianze\dev\client\ClientEditor\ClientRes\Android"
-targetBundlePath = r"D:\Tianze\dev\client\ClientCode\Assets\StreamingAssets\Android"
+# targetBundlePath = r"D:\Tianze\dev\client\ClientCode\Assets\StreamingAssets\Android"
+targetBundlePath = r"D:\Tianze-Branch\Assets\StreamingAssets\Android"
 
 
 def copytree(src, dst, symlinks=False):  

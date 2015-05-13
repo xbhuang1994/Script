@@ -58,6 +58,8 @@ pr.publishTps("feiting","UI_Airship","UI_Airship")
 pr.publishTps("zhandou\\zhandou","UI_Battle","UI_Battle")
 #君主
 pr.publishTps("junzhu","UI_UpgradeLevel","UI_UpgradeLevel")
+#背包
+pr.publishTps("beibao","UI_Bag","UI_Bag")
 
 #ICON 相关
 assetpath = r"D:\Tianze\dev\client\ClientEditor\Assets\Prefab\Icon"
